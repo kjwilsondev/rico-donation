@@ -1,0 +1,92 @@
+#join {
+  /* margin-top: 50%; */
+  background-color: #272d3f;
+  color: white;
+  transition: all 0.3s;
+}
+
+#join:hover {
+  border: 3px solid #272d3f;
+  background-color: transparent;
+  color: #272d3f;
+}
+
+#donate {
+  margin-top: 13px;
+  background-color: #8f6a5a;
+  transition: all 0.3s;
+}
+
+#donate:hover {
+  border: 3px solid #8f6a5a;
+  background-color: white;
+  color: #8f6a5a;
+}
+
+#paypal {
+  background-color: #003187;
+  color: white;
+  transition: all 0.3s;
+}
+
+#paypal:hover {
+  border: 3px solid #003187;
+  background-color: transparent;
+  color: #003187;
+}
+
+#venmo {
+  background-color: #039cdd;
+  transition: all 0.3s;
+}
+
+#venmo:hover {
+  border: 3px solid #039cdd;
+  background-color: transparent;
+  color: #039cdd;
+}
+
+#stripe {
+  background-color: #2b2e2f;
+  transition: all 0.3s;
+}
+
+#stripe:hover {
+  border: 3px solid #2b2e2f;
+  background-color: transparent;
+  color: #2b2e2f;
+}
+
+#youth {
+  background-color: #799074;
+  color: white;
+  transition: all 0.3s;
+}
+
+#youth:hover {
+  border: 3px solid #799074;
+  background-color: transparent;
+  color: #799074;
+}
+
+#volunteer {
+  background-color: #4f5f4c;
+  transition: all 0.3s;
+}
+
+#volunteer:hover {
+  border: 3px solid #4f5f4c;
+  background-color: transparent;
+  color: #4f5f4c;
+}
+
+#staff {
+  background-color: #2f392d;
+  transition: all 0.3s;
+}
+
+#staff:hover {
+  border: 3px solid #2f392d;
+  background-color: transparent;
+  color: #2f392d;
+}

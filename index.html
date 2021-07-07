@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="recordplayer.css" />
+    <link rel="stylesheet" href="buttons.css" />
+    <link rel="stylesheet" href="circle.css" />
+    <link
+      rel="stylesheet"
+      media="only screen and (max-width: 400px)"
+      href="mobile.css"
+    />
+    <!-- Fonts -->
+    <script
+      src="https://kit.fontawesome.com/938f0786af.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Teko:700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <!-- AOS Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <!-- Libraries -->
+    <script src="js/libs/snap.svg.min.js"></script>
+    <script src="js/libs/snap.svg.easing.min.js"></script>
+
+    <!-- Scripts -->
+    <script src="js/src/svgAnimation.min.js"></script>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <meta charset="utf-8" />
+  </head>
+  <body>
+    <!-- nav bar -->
+    <div class="nav">
+      <ul class="nav-split">
+        <li>
+          <img class="logo" src="/sunset.png" style="height: 39px !important" />
+        </li>
+        <ul class="nav-split2">
+          <!-- <li class="icon">
+            <i
+              class="fas fa-calendar-day fa2x"
+            ></i>
+          </li>
+          <li class="icon">
+            <i
+              class="fas fa-user-friends fa2x"
+            ></i>
+          </li>
+          <li class="icon">
+            <i
+              class="far fa-newspaper fa2x"
+            ></i>
+          </li> -->
+        </ul>
+      </ul>
+    </div>
+    <!-- particles.js container -->
+    <!-- <div id="particles-js"> -->
+    <div>
+      <div id="panel">
+        <ul id="panel-items">
+          <li id="panel-items-title">
+            <div data-aos="zoom-in" data-aos-delay="800">back to school</div>
+          </li>
+          <!-- <li id="panel-items-subtitle">
+            <div data-aos="fade-down" data-aos-delay="1000">
+              all profit rico
+            </div>
+          </li> -->
+          <li>
+            <div id="canvas"></div>
+          </li>
+          <li>
+            <div class="home-buttons">
+              <button
+                class="button"
+                id="join"
+                onclick="location.href='https://forms.gle/2LUt9qDgMEddDEja7'"
+              >
+                <i class="fas fa-user-plus"></i>
+                APPLY
+              </button>
+              <!-- <button class="button" id="donate" onclick="location.href='/djpsite.github.io/donate'"><i class="fas fa-hand-holding-medical"></i> DONATE</button> -->
+            </div>
+          </li>
+        </ul>
+        <div id="description" class="fade-in-text">
+          <p id="rico">
+            <a
+              href="https://www.instagram.com/allprofit_ricoo/"
+              target="_blank"
+            >
+              Rico
+              <svg viewBox="0 0 70 36">
+                <path
+                  d="M6.9739 30.8153H63.0244C65.5269 30.8152 75.5358 -3.68471 35.4998 2.81531C-16.1598 11.2025 0.894099 33.9766 26.9922 34.3153C104.062 35.3153 54.5169 -6.68469 23.489 9.31527"
+                />
+              </svg>
+            </a>
+          </p>
+          <p>
+            an up and coming rapper hailing from Richmond, CA is sponsoring a
+          </p>
+          <p>
+            <mark
+              >back-to-school drive for 10 gifted, hard working students with
+              less priveleged backgrounds.</mark
+            >
+          </p>
+          <p>_____</p>
+          <p style="font-size: 13px; font-weight: 800">
+            Applications close July 16th at midnight.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- <div>
+      <ul class="footer">
+        <li>
+          <p id="footer-text">Powered by Horizons</p>
+        </li>
+        <li>
+          <img
+            id="footer-logo"
+            src="/sunset.png"
+            style="height: 35px !important"
+          />
+        </li>
+      </ul>
+    </div> -->
+    <script>
+      (function () {
+        var animation = new svgAnimation({
+          canvas: new Snap("#canvas"),
+          svg: "svg/backpack.svg",
+          data: "json/backpack.json",
+          duration: 2000,
+          steps: 10,
+        });
+      })();
+    </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="./index.js"></script>
+  <!-- particles.js lib - https://github.com/VincentGarreau/particles.js -->
+</html>
